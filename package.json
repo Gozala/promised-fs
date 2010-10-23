@@ -1,0 +1,32 @@
+{ "name": "promised-fs"
+, "version": "0.0.1"
+, "description": "Promise based filesystem API for node."
+, "homepage": "http://github.com/Gozala/promised-fs/"
+, "keywords": ["promise", "filesystem"]
+, "contributors":
+  [ "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)" ]
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/Gozala/promised-fs.git"
+  }
+, "bugs": { "web": "http://github.com/Gozala/promised-fs/issues/" }
+, "directories":
+  { "doc": "./doc"
+  , "man": "./man"
+  , "lib": "./lib"
+  , "test": "./test"
+  }
+, "dependencies":
+  { "test": ">=0.0.5"
+  , "filesystem-composer": ">=0.0.2"
+  }
+, "main": "./lib/promised-fs.js"
+, "scripts": { "test": "node test/all.js" }
+, "engines": { "node": ">=0.1.103" }
+, "licenses" :
+  [ { "type" : "MPL 1.1/LGPL 2.1/GPL 2.0"
+    , "url" : "http://www.mozilla.org/MPL/"
+    }
+  ]
+}
+
