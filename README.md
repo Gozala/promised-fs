@@ -12,7 +12,7 @@ in a liniar fasion while still preserving asynchronous behavior.
 
         var somePath = fs.workingDirectory().join('someFile.bla')
         var data = fs.read(somePath)
-        var wroteTemp = fs.write('/some/path/temp.bla')
+        var wroteTemp = fs.write('/some/path/temp.bla', data)
 
         when
         ( wroteTemp
