@@ -16,7 +16,7 @@ exports['test list `fs.workingDirectory`'] = function(assert, done) {
 }
 
 exports['test list `fs.workingDirectoryPath`'] = function(assert, done) {
-  var entries = fs.list(fs.workingDirectoryPath())
+  var entries = fs.workingDirectoryPath().list()
   when
   ( entries
   , function(list) {
