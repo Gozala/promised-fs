@@ -18,7 +18,7 @@
   }
 , "dependencies":
   { "test": ">=0.0.5"
-  , "filesystem-composer": ">=0.0.3"
+  , "filesystem-composer": ">=0.0.4"
   }
 , "main": "./lib/promised-fs.js"
 , "scripts": { "test": "node test/all.js" }
