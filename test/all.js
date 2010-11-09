@@ -1,7 +1,9 @@
 'use strict'
 
-exports['test listing'] = require('./list')
+exports['test path'] = require('./path')
+exports['test listing'] = require('./listing')
 exports['test working directory'] = require('./working-directory')
-exports['test read'] = require('./read')
+exports['test read write'] = require('./read-write')
+exports['test directory'] = require('./directory')
 
 if (module == require.main) require('test').run(exports)
