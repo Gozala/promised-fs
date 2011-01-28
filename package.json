@@ -1,5 +1,5 @@
 { "name": "promised-fs"
-, "version": "0.0.7"
+, "version": "0.0.8"
 , "description": "Promise based filesystem API for node."
 , "homepage": "http://github.com/Gozala/promised-fs/"
 , "keywords": ["promise", "filesystem"]
@@ -18,7 +18,7 @@
   }
 , "dependencies":
   { "test": ">=0.0.10"
-  , "filesystem-composer": ">=0.0.9"
+  , "filesystem-composer": ">=0.0.10"
   }
 , "main": "./lib/promised-fs.js"
 , "scripts": { "test": "node test/all.js" }
