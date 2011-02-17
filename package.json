@@ -1,5 +1,5 @@
 { "name": "promised-fs"
-, "version": "0.0.8"
+, "version": "0.0.9"
 , "description": "Promise based filesystem API for node."
 , "homepage": "http://github.com/Gozala/promised-fs/"
 , "keywords": ["promise", "filesystem"]
